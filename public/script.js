@@ -14,7 +14,7 @@ $(function() {
     return true;
   };
 
-  var arrowTypes = ["audio/mp3", "audio/wav"];
+  var arrowTypes = ["audio/mpeg", "audio/mp3", "audio/wav"];
   var validateFileType = function(type) {
     var ret = false;
     for (var i=0; i < arrowTypes.length; i++) {
